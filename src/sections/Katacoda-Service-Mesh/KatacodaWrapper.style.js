@@ -29,13 +29,24 @@ export const KatacodaWrapper = styled.div`
     }
 	.course-tabs {
 		display: flex;
+		/* border: 3px red solid; */
 	}
 	.course-tab-list {
-		padding: 0 0.5rem;
-		margin: 0;
+		padding: 0rem;
+		text-align: center;
+		justify-content: center;
+		width: 30%;
+		/* border: 3px purple solid; */
 	}
 	.course-tab {
-		margin-right: -0.5rem;
+		padding: 1rem;
+		text-align: center;
+		width:100%;
+		justify-content: center;
+		/* border: 3px blue solid; */
+		/* border-radius: 10px 0px 10px 0px; */
+		border-bottom-right-radius: 20px;
+		border-top-right-radius: 20px;
 		writing-mode: vertical-lr;
 		transform: rotate(180deg);
 		transform-origin: center center;
@@ -44,14 +55,18 @@ export const KatacodaWrapper = styled.div`
 		cursor: pointer;
 	}
 	.title {
-		padding: 0.5rem;
+		/* padding: 0rem 1rem 1rem 0.5rem; */
+		color: #fff;
+		font-weight: 650;
 	}
 	.content.react-tabs__tab-panel--selected {
 		background-color: black;
 		padding: 2rem;
+		
 	}
 	.react-tabs__tab--selected {
 		background: rgb(240, 192, 55);
-		border-radius: 0;
+		border-bottom-right-radius: 20px;
+		box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.75);
 	}
 `;
