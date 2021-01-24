@@ -67,6 +67,8 @@ export const KatacodaWrapper = styled.div`
 	.react-tabs__tab--selected {
 		background: rgb(240, 192, 55);
 		border-bottom-right-radius: 20px;
-		box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.75);
+		-webkit-box-shadow: 2px 2px 6px 3px rgba(0,255,0,0.25);
+-moz-box-shadow: 2px 2px 6px 3px rgba(0,255,0,0.25);
+box-shadow: 2px 2px 6px 3px rgba(0,255,0,0.25);
 	}
 `;
